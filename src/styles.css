@@ -461,7 +461,7 @@ select {
   color: inherit;
 }
 
-.inline-tooltip-content {
+.inline-tooltip .inline-tooltip-content {
   position: absolute;
   top: calc(100% + 0.45rem);
   right: 0;
@@ -474,6 +474,7 @@ select {
   color: var(--surface);
   box-shadow: var(--shadow);
   font-size: 0.77rem;
+  font-weight: 400;
   line-height: 1.45;
   text-transform: none;
   letter-spacing: normal;
@@ -877,12 +878,15 @@ select {
 }
 
 .table-shell {
+  position: relative;
   width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .data-table {
   width: 100%;
+  min-width: 700px;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -1530,11 +1534,18 @@ select {
 
   .shell-topbar {
     position: sticky;
+    top: 0;
     left: 0;
+    z-index: 15;
     height: auto;
+    max-height: 100vh;
     padding: 0.875rem 1rem;
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .shell-content {
+    padding-top: 0;
   }
 
   .topbar-left {
@@ -1567,6 +1578,8 @@ select {
     width: 100%;
     padding-top: 0.5rem;
     border-top: 1px solid var(--topbar-line);
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .mobile-nav.is-open {
@@ -1576,6 +1589,21 @@ select {
 
   .mobile-nav .preference-panel {
     margin-top: 0.35rem;
+  }
+
+  .inline-tooltip .inline-tooltip-content {
+    position: fixed;
+    top: auto;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    width: auto;
+    max-width: none;
+  }
+
+  .preference-panel-tooltip .inline-tooltip-content {
+    left: 1rem;
+    right: 1rem;
   }
 }
 
