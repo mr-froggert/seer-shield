@@ -525,12 +525,19 @@ select {
 
 .shell-content {
   padding-top: 4rem;
+  overflow-x: hidden;
 }
 
 .page-shell {
   padding: 2rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
+  min-width: 0;
+}
+
+.page-shell > * {
+  min-width: 0;
 }
 
 .surface-panel,
@@ -1511,11 +1518,11 @@ select {
   .intro-panel,
   .detail-hero-grid,
   .detail-support-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .yield-hero-content {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .intro-heading {
@@ -1610,7 +1617,7 @@ select {
 @media (max-width: 680px) {
   .summary-grid,
   .detail-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .table-panel-header,
