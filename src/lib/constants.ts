@@ -1,6 +1,6 @@
 const viteEnv = typeof import.meta !== "undefined" ? import.meta.env : undefined;
 
-export const APP_TAGLINE = "Defi yields while minimizing exploit risk";
+export const APP_TAGLINE = "Prediction Market Insights to Maximize Safe Defi Yields";
 export const APP_DESCRIPTION =
   "A read-only DeFi yield and risk terminal that combines curated opportunities, live protocol APY data, and linked Seer risk markets.";
 
