@@ -1,0 +1,176 @@
+[
+  {
+    "fromType": "protocol",
+    "fromId": "ethereum",
+    "toType": "asset",
+    "toId": "eth",
+    "relationType": "associated_asset",
+    "label": "Native Ethereum asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "lido",
+    "toType": "asset",
+    "toId": "eth",
+    "relationType": "supports_yield_for",
+    "opportunityId": "lido-eth-staking",
+    "chainIds": [1],
+    "label": "Liquid staking route",
+    "priority": 2
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "chainlink",
+    "toType": "asset",
+    "toId": "link",
+    "relationType": "associated_asset",
+    "label": "Chainlink native utility token",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "uniswap",
+    "toType": "asset",
+    "toId": "uni",
+    "relationType": "associated_asset",
+    "label": "Uniswap governance asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "arbitrum-foundation",
+    "toType": "asset",
+    "toId": "arb",
+    "relationType": "associated_asset",
+    "label": "Arbitrum governance asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "curve",
+    "toType": "asset",
+    "toId": "crv",
+    "relationType": "associated_asset",
+    "label": "Curve governance asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "circle",
+    "toType": "asset",
+    "toId": "usdc",
+    "relationType": "associated_asset",
+    "label": "Circle-issued dollar asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "aave",
+    "toType": "asset",
+    "toId": "usdc",
+    "relationType": "supports_yield_for",
+    "opportunityId": "aave-usdc-umbrella-eth",
+    "chainIds": [1],
+    "label": "Umbrella staking route",
+    "priority": 14
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "aave",
+    "toType": "asset",
+    "toId": "gho",
+    "relationType": "associated_asset",
+    "label": "Aave-native stablecoin",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "aave",
+    "toType": "asset",
+    "toId": "gho",
+    "relationType": "supports_yield_for",
+    "opportunityId": "aave-sgho-eth",
+    "chainIds": [1],
+    "label": "sGHO savings route",
+    "priority": 3
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "aave",
+    "toType": "asset",
+    "toId": "gho",
+    "relationType": "supports_yield_for",
+    "opportunityId": "aave-gho-umbrella-eth",
+    "chainIds": [1],
+    "label": "Umbrella staking route",
+    "priority": 4
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "bitgo",
+    "toType": "asset",
+    "toId": "wbtc",
+    "relationType": "associated_asset",
+    "label": "BitGo-issued wrapped BTC rail",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "coinbase",
+    "toType": "asset",
+    "toId": "cbbtc",
+    "relationType": "associated_asset",
+    "label": "Coinbase-issued wrapped BTC rail",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "threshold",
+    "toType": "asset",
+    "toId": "tbtc",
+    "relationType": "associated_asset",
+    "label": "Threshold-issued decentralized BTC rail",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "tether",
+    "toType": "asset",
+    "toId": "usdt",
+    "relationType": "associated_asset",
+    "label": "Tether-issued dollar asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "aave",
+    "toType": "asset",
+    "toId": "usdt",
+    "relationType": "supports_yield_for",
+    "opportunityId": "aave-usdt-umbrella-eth",
+    "chainIds": [1],
+    "label": "Umbrella staking route",
+    "priority": 4
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "sky",
+    "toType": "asset",
+    "toId": "usds",
+    "relationType": "associated_asset",
+    "label": "Sky-issued dollar asset",
+    "priority": 1
+  },
+  {
+    "fromType": "protocol",
+    "fromId": "sky",
+    "toType": "asset",
+    "toId": "usds",
+    "relationType": "supports_yield_for",
+    "opportunityId": "sky-usds-eth",
+    "chainIds": [1],
+    "label": "sUSDS savings route",
+    "priority": 2
+  }
+]

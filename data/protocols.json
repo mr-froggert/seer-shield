@@ -1,0 +1,156 @@
+[
+  {
+    "id": "aave",
+    "name": "Aave",
+    "website": "https://aave.com",
+    "category": "lending",
+    "chains": [1, 10, 56, 137, 8453, 42161, 43114],
+    "tags": ["lending", "money-market", "bluechip", "platform-surface"],
+    "description": "Aave is a large-scale onchain money market used for collateralized lending and borrowing.",
+    "status": "active",
+    "defillamaProjectId": "aave-v3"
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "website": "https://ethereum.org",
+    "category": "layer-1",
+    "chains": [1],
+    "tags": ["layer-1", "native-asset"],
+    "description": "Ethereum is the base network for ETH, the native asset used for gas, staking, and collateral across the EVM ecosystem.",
+    "status": "active"
+  },
+  {
+    "id": "bitgo",
+    "name": "BitGo",
+    "website": "https://www.wbtc.network",
+    "category": "wrapped-btc",
+    "chains": [1, 56, 8453, 43114],
+    "tags": ["wrapped-btc", "custodian", "issuer"],
+    "description": "BitGo operates the WBTC custody and issuance stack used to bring BTC into EVM-compatible DeFi venues.",
+    "status": "active"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "website": "https://www.coinbase.com/cbbtc",
+    "category": "wrapped-btc",
+    "chains": [1, 8453, 42161],
+    "tags": ["wrapped-btc", "custodian", "issuer"],
+    "description": "Coinbase issues cbBTC, a centralized BTC wrapper backed 1:1 by BTC held in Coinbase custody.",
+    "status": "active"
+  },
+  {
+    "id": "hyperliquid",
+    "name": "Hyperliquid",
+    "website": "https://app.hyperliquid.xyz",
+    "category": "perps",
+    "chains": [999, 42161],
+    "tags": ["perps", "exchange", "app-chain", "platform-surface"],
+    "description": "Hyperliquid operates an app-specific trading venue focused on perpetuals and exchange-style liquidity rather than decomposed fixed-income routes.",
+    "status": "active",
+    "defillamaProjectId": "hyperliquid"
+  },
+  {
+    "id": "chainlink",
+    "name": "Chainlink",
+    "website": "https://chain.link",
+    "category": "oracle",
+    "chains": [1, 10, 137, 42161],
+    "tags": ["oracle", "core-asset"],
+    "description": "Chainlink is the oracle network behind LINK, a utility asset used across oracle, staking, and collateral contexts.",
+    "status": "active"
+  },
+  {
+    "id": "lido",
+    "name": "Lido",
+    "website": "https://lido.fi",
+    "category": "staking",
+    "chains": [1],
+    "tags": ["staking", "liquid-staking", "lst", "platform-surface"],
+    "description": "Lido issues liquid staking assets such as stETH, pairing validator and staking exposure with liquid wrapper risk.",
+    "status": "active",
+    "defillamaProjectId": "lido"
+  },
+  {
+    "id": "uniswap",
+    "name": "Uniswap",
+    "website": "https://uniswap.org",
+    "category": "dex",
+    "chains": [1],
+    "tags": ["dex", "governance", "core-asset"],
+    "description": "Uniswap is the dominant AMM venue behind UNI, a governance asset with broad DeFi collateral utility.",
+    "status": "active"
+  },
+  {
+    "id": "arbitrum-foundation",
+    "name": "Arbitrum",
+    "website": "https://arbitrum.io",
+    "category": "layer-2",
+    "chains": [42161],
+    "tags": ["layer-2", "governance", "core-asset"],
+    "description": "Arbitrum is an optimistic rollup network whose ARB token anchors governance for one of the main EVM execution layers.",
+    "status": "active"
+  },
+  {
+    "id": "curve",
+    "name": "Curve",
+    "website": "https://curve.fi",
+    "category": "dex",
+    "chains": [1],
+    "tags": ["dex", "governance", "core-asset"],
+    "description": "Curve is a liquidity venue focused on efficient swaps, with CRV serving as a governance and incentive asset across the protocol.",
+    "status": "active"
+  },
+  {
+    "id": "sky",
+    "name": "Sky",
+    "website": "https://sky.money",
+    "category": "stablecoin",
+    "chains": [1, 42161],
+    "tags": ["stablecoin", "savings", "issuer", "platform-surface"],
+    "description": "Sky issues USDS and related savings products, pairing a stablecoin issuer surface with yield-bearing savings routes.",
+    "status": "active",
+    "defillamaProjectId": "sky-lending"
+  },
+  {
+    "id": "circle",
+    "name": "Circle",
+    "website": "https://www.circle.com",
+    "category": "stablecoin",
+    "chains": [1, 10, 137, 8453, 42161, 43114],
+    "tags": ["stablecoin", "issuer", "payments"],
+    "description": "Circle issues USDC, a centralized dollar stablecoin with reserve and redemption risk rather than protocol yield exposure.",
+    "status": "active"
+  },
+  {
+    "id": "threshold",
+    "name": "Threshold",
+    "website": "https://threshold.network",
+    "category": "wrapped-btc",
+    "chains": [1, 10, 137, 8453, 42161],
+    "tags": ["wrapped-btc", "trust-minimized", "issuer"],
+    "description": "Threshold powers tBTC, a decentralized BTC representation secured by a rotating threshold signer set rather than a single custodian.",
+    "status": "active"
+  },
+  {
+    "id": "tether",
+    "name": "Tether",
+    "website": "https://tether.to",
+    "category": "stablecoin",
+    "chains": [1, 10, 137, 8453, 42161],
+    "tags": ["stablecoin", "issuer", "payments"],
+    "description": "Tether issues USDT, a centralized dollar stablecoin with reserve, banking, and redemption risk.",
+    "status": "active"
+  },
+  {
+    "id": "ethena",
+    "name": "Ethena",
+    "website": "https://www.ethena.fi",
+    "category": "stablecoin",
+    "chains": [1],
+    "tags": ["stablecoin", "synthetic", "delta-neutral"],
+    "description": "Ethena issues USDe, a synthetic dollar backed by delta-hedged collateral and exchange risk.",
+    "status": "active"
+  }
+]

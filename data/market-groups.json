@@ -1,0 +1,434 @@
+[
+  {
+    "id": "usdc-depeg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "usdc",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for USDC through year-end 2026.",
+    "markets": [
+      {
+        "id": "usdc-below-098-usd",
+        "label": "USDC drops below 0.98$",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports USDC below 0.98 USD before year-end 2026.",
+        "seed": {
+          "question": "Will USDC drop below 0.98$ as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Stablecoin Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x023d6bD63A825eE4daeBD928E0aa4335Ba56C887",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x023d6bD63A825eE4daeBD928E0aa4335Ba56C887",
+          "lastSyncedAt": "2026-04-24T22:01:07.338Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gho-depeg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "gho",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for GHO through year-end 2026.",
+    "markets": [
+      {
+        "id": "gho-below-098-usd",
+        "label": "GHO drops below 0.98$",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports GHO below 0.98 USD before year-end 2026.",
+        "seed": {
+          "question": "Will GHO drop below 0.98$ as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Stablecoin Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x3D09daf8b16c361FAa1b96169c2Ae82f2Ee4f602",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x3D09daf8b16c361FAa1b96169c2Ae82f2Ee4f602",
+          "lastSyncedAt": "2026-04-24T22:01:11.851Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "usds-depeg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "usds",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for USDS through year-end 2026.",
+    "markets": [
+      {
+        "id": "usds-below-098-usd",
+        "label": "USDS drops below 0.98$",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports USDS below 0.98 USD before year-end 2026.",
+        "seed": {
+          "question": "Will USDS drop below 0.98$ as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Stablecoin Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0xc3010649De6D611fA2cFd86e85Aa94020099D2C9",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0xc3010649De6D611fA2cFd86e85Aa94020099D2C9",
+          "lastSyncedAt": "2026-04-24T22:01:16.545Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "usdt-depeg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "usdt",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for USDT through year-end 2026.",
+    "markets": [
+      {
+        "id": "usdt-below-098-usd",
+        "label": "USDT drops below 0.98$",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports USDT below 0.98 USD before year-end 2026.",
+        "seed": {
+          "question": "Will USDT drop below 0.98$ as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Stablecoin Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x78912cB69E50F1c3B2DC84948A150b019707156b",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x78912cB69E50F1c3B2DC84948A150b019707156b",
+          "lastSyncedAt": "2026-04-25T05:58:56.836Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "usde-depeg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "usde",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for USDe through year-end 2026.",
+    "markets": [
+      {
+        "id": "usde-below-098-usd",
+        "label": "USDe drops below 0.98$",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports USDe below 0.98 USD before year-end 2026.",
+        "seed": {
+          "question": "Will USDe drop below 0.98$ as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Stablecoin Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0xC090800623fA544C0649ECbB12EE056644b26C85",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0xC090800623fA544C0649ECbB12EE056644b26C85",
+          "lastSyncedAt": "2026-04-25T05:59:01.349Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wbtc-peg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "wbtc",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for WBTC through year-end 2026.",
+    "markets": [
+      {
+        "id": "wbtc-below-098-btc",
+        "label": "WBTC drops below 0.98 BTC",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports WBTC below 0.98 BTC before year-end 2026.",
+        "seed": {
+          "question": "Will WBTC drop below 0.98 BTC as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Bitcoin Wrapper Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x3D06C2170C29FBA10F22A85A9f1909F9f9d2945A",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x3D06C2170C29FBA10F22A85A9f1909F9f9d2945A",
+          "lastSyncedAt": "2026-04-25T05:59:08.774Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cbbtc-peg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "cbbtc",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for cbBTC through year-end 2026.",
+    "markets": [
+      {
+        "id": "cbbtc-below-098-btc",
+        "label": "cbBTC drops below 0.98 BTC",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports cbBTC below 0.98 BTC before year-end 2026.",
+        "seed": {
+          "question": "Will cbBTC drop below 0.98 BTC as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Bitcoin Wrapper Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0xf92bD4bF1d3713037700a3566A4b71031CE8DB60",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0xf92bD4bF1d3713037700a3566A4b71031CE8DB60",
+          "lastSyncedAt": "2026-04-25T05:59:16.295Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tbtc-peg-risk-through-2026",
+    "subjectType": "asset",
+    "subjectId": "tbtc",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Peg monitoring market for tBTC through year-end 2026.",
+    "markets": [
+      {
+        "id": "tbtc-below-098-btc",
+        "label": "tBTC drops below 0.98 BTC",
+        "kind": "depeg",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether CoinGecko reports tBTC below 0.98 BTC before year-end 2026.",
+        "seed": {
+          "question": "Will tBTC drop below 0.98 BTC as reported by CoinGecko before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Bitcoin Wrapper Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0xa2db36286d2D1ac4A2427D782037a1D8D4C1fa8d",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0xa2db36286d2D1ac4A2427D782037a1D8D4C1fa8d",
+          "lastSyncedAt": "2026-04-25T05:59:20.986Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "aave-hack-risk-through-2026",
+    "subjectType": "protocol",
+    "subjectId": "aave",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Hack monitoring market for Aave through year-end 2026.",
+    "markets": [
+      {
+        "id": "aave-hack-greater-than-1m-usd",
+        "label": "Aave hack causes losses greater than $1M USD",
+        "kind": "exploit",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether Aave suffers a hack resulting in losses greater than $1M USD before year-end 2026.",
+        "seed": {
+          "question": "Will Aave suffer a hack resulting in losses greater than $1M USD before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Platform Hack Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0xBF136270F6a82E22a8913D838E2989b3452664e5",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0xBF136270F6a82E22a8913D838E2989b3452664e5",
+          "lastSyncedAt": "2026-04-25T05:59:27.934Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hyperliquid-hack-risk-through-2026",
+    "subjectType": "protocol",
+    "subjectId": "hyperliquid",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Hack monitoring market for Hyperliquid through year-end 2026.",
+    "markets": [
+      {
+        "id": "hyperliquid-hack-greater-than-1m-usd",
+        "label": "Hyperliquid hack causes losses greater than $1M USD",
+        "kind": "exploit",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether Hyperliquid suffers a hack resulting in losses greater than $1M USD before year-end 2026.",
+        "seed": {
+          "question": "Will Hyperliquid suffer a hack resulting in losses greater than $1M USD before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Platform Hack Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x02046C6D02c2Bc7f119F93f2D5D8b91be7706956",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x02046C6D02c2Bc7f119F93f2D5D8b91be7706956",
+          "lastSyncedAt": "2026-04-25T05:59:32.828Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lido-hack-risk-through-2026",
+    "subjectType": "protocol",
+    "subjectId": "lido",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Hack monitoring market for Lido through year-end 2026.",
+    "markets": [
+      {
+        "id": "lido-hack-greater-than-1m-usd",
+        "label": "Lido hack causes losses greater than $1M USD",
+        "kind": "exploit",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether Lido suffers a hack resulting in losses greater than $1M USD before year-end 2026.",
+        "seed": {
+          "question": "Will Lido suffer a hack resulting in losses greater than $1M USD before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Platform Hack Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x15cDC5e15AE43A1c9925ac1aF9636e6Ef8f1BAE7",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x15cDC5e15AE43A1c9925ac1aF9636e6Ef8f1BAE7",
+          "lastSyncedAt": "2026-04-24T22:02:12.246Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sky-hack-risk-through-2026",
+    "subjectType": "protocol",
+    "subjectId": "sky",
+    "horizonLabel": "Through Dec 31, 2026",
+    "horizonEnd": "2026-12-31T23:59:59Z",
+    "notes": "Hack monitoring market for Sky through year-end 2026.",
+    "markets": [
+      {
+        "id": "sky-hack-greater-than-1m-usd",
+        "label": "Sky hack causes losses greater than $1M USD",
+        "kind": "exploit",
+        "type": "categorical",
+        "severity": 1,
+        "notes": "Binary market on whether Sky suffers a hack resulting in losses greater than $1M USD before year-end 2026.",
+        "seed": {
+          "question": "Will Sky suffer a hack resulting in losses greater than $1M USD before the end of December 31, 2026?",
+          "openingTime": "2026-04-24T00:00:00Z",
+          "chainId": 100,
+          "category": "Platform Hack Risk",
+          "marketType": "categorical",
+          "outcomes": [
+            "Yes",
+            "No"
+          ]
+        },
+        "seerMarketId": "0x5FFE6034Fd5b2517b23d14eA412940cA90C9bC4f",
+        "creation": {
+          "status": "created",
+          "chainId": 100,
+          "url": "https://app.seer.pm/markets/100/0x5FFE6034Fd5b2517b23d14eA412940cA90C9bC4f",
+          "lastSyncedAt": "2026-04-25T05:59:37.342Z"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "lido-eth-staking",
+    "title": "Lido ETH staking",
+    "protocolId": "lido",
+    "assetId": "eth",
+    "chainId": 1,
+    "category": "staking",
+    "tags": ["eth", "staking", "lst"],
+    "summary": "ETH deposited into Lido for liquid staking yield, introducing destination-protocol risk rather than intrinsic depeg-style asset risk.",
+    "yieldSource": "defillama",
+    "yieldSourceId": "747c1d2a-c668-4682-b9f9-296708a3dd90",
+    "status": "active"
+  },
+  {
+    "id": "aave-usdc-umbrella-eth",
+    "title": "Aave Umbrella USDC on Ethereum",
+    "protocolId": "aave",
+    "assetId": "usdc",
+    "chainId": 1,
+    "category": "staking",
+    "tags": ["aave", "stablecoin", "umbrella", "staking"],
+    "summary": "USDC staked through Aave Umbrella, combining the wrapped Aave reserve carry with the live Umbrella reward layer.",
+    "yieldSource": "aave",
+    "yieldSourceId": "umbrella:ethereum:waethusdc",
+    "status": "active"
+  },
+  {
+    "id": "aave-sgho-eth",
+    "title": "Aave sGHO Savings on Ethereum",
+    "protocolId": "aave",
+    "assetId": "gho",
+    "chainId": 1,
+    "category": "savings",
+    "tags": ["aave", "stablecoin", "savings"],
+    "summary": "GHO routed into the sGHO savings product, using the live official Aave savings APR rather than a generic pooled fallback.",
+    "yieldSource": "aave",
+    "yieldSourceId": "savings:ethereum:gho",
+    "status": "active"
+  },
+  {
+    "id": "aave-gho-umbrella-eth",
+    "title": "Aave Umbrella GHO on Ethereum",
+    "protocolId": "aave",
+    "assetId": "gho",
+    "chainId": 1,
+    "category": "staking",
+    "tags": ["aave", "stablecoin", "umbrella", "staking"],
+    "summary": "GHO staked into Aave Umbrella, separating stake-level reward carry from the base GHO asset risk and Aave venue risk.",
+    "yieldSource": "aave",
+    "yieldSourceId": "umbrella:ethereum:gho",
+    "status": "active"
+  },
+  {
+    "id": "aave-usdt-umbrella-eth",
+    "title": "Aave Umbrella USDT on Ethereum",
+    "protocolId": "aave",
+    "assetId": "usdt",
+    "chainId": 1,
+    "category": "staking",
+    "tags": ["aave", "stablecoin", "umbrella", "staking"],
+    "summary": "USDT staked through Aave Umbrella, layering the wrapped Aave reserve yield with the live Umbrella reward schedule.",
+    "yieldSource": "aave",
+    "yieldSourceId": "umbrella:ethereum:waethusdt",
+    "status": "active"
+  },
+  {
+    "id": "sky-usds-eth",
+    "title": "Sky USDS Savings on Ethereum",
+    "protocolId": "sky",
+    "assetId": "usds",
+    "chainId": 1,
+    "category": "savings",
+    "tags": ["sky", "stablecoin", "savings"],
+    "summary": "USDS routed into Sky savings, using the live sUSDS opportunity for current carry and TVL.",
+    "yieldSource": "defillama",
+    "yieldSourceId": "d8c4eff5-c8a9-46fc-a888-057c4c668e72",
+    "status": "active"
+  }
+]
